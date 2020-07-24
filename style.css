@@ -1,0 +1,76 @@
+@import
+url('https://fonts.google.com/css?family=Roboto-Thin.ttf');
+.nav{
+	   height:50px;
+	   background:blue;
+				}
+.nav div{
+		 display:inline-block;
+		 position:absolute;
+		 left:0px;
+		 padding:15px;
+		 font-size:20px;
+		 color:white;
+		    }
+.nav ul{
+		 position:absolute;
+		 right:5px
+		   }
+.nav ul li{
+		 display:inline-block;
+		   }
+.nav ul li a{
+			color:white;
+			padding:5px;
+			}
+.home{
+		  background:url("../images/homeBack.jpg");
+		  background-size:cover;
+		  height:100vh;
+		  }
+.home .text-container{
+		  text-align:center;
+		  display:flex;
+		  align-items:center;
+		  justify-content:center;
+		  height:90vh;
+		  }
+.about-content{
+			margin:150px auto 0 auto;
+			width:500px;
+			}
+.about-content h1{
+			text-align:center;
+			font-family:'Roboto',sans-serrif;
+			color:red;
+			}
+ .about-content p{
+		  text-align:justify;
+		  color:green;
+		  }
+.services .services-content{
+			margin:80px auto 0 auto;
+			text-align:center;
+			}
+.services .services-content h1{
+			color:red;}
+.services .services-content ul{
+			padding:0;
+			}
+.services .services-content ul li{
+			list-style:none;
+			display:inline-block;
+			margin:20px;
+			width:300px;
+		  }
+.services .services-content ul li p{
+			text-align:justify;
+			color:green;
+			}
+.contact .contact-content{
+			margin:80px auto 0 auto;
+			text-align:center;
+			}
+.contact .contact-content h1{
+       color:red;
+       }
